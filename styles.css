@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #1f2937;
+    margin: 0;
+    
+}
+
+/* ============== */
+/* Topography  */
+/* ============== */
+h1{
+    font-size: 2rem;;
+    font-weight: 800;
+    line-height: 1.6rem;
+    
+}
+.heading-feature{
+ color:#4adf86;
+ margin: 0;
+}
+.heading{
+    color:#ffff;
+    margin: 0;
+}
+p{
+    font-size: 1.45rem;
+    font-weight: 400;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #10b981;
+    padding: .2em 1em;
+    font-weight: 800;
+    border-radius: 6px;
+}
+
+.subheading{
+    color: #d5d4d8;
+    font-size: 0.85rem;
+    margin-top: .45em;
+
+    
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    background-color: #10b981;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    color: #ffffff;
+    border-style: none;
+    margin-bottom: 1em;
+    margin-top: 0.85em;
+}
+
+.output{
+    background-color: #273549;
+    text-align: center;
+    color: #55f991;
+    font-size: 0.9rem;
+    line-height: 0.1em;
+    padding: 0.7em 1.5em;
+    border-radius: 6px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+
+footer{
+    text-align: center;
+    color: #ffff;
+    padding: 2em 0.1em;
+    background-color: #273549;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 1rem  ;
+    margin: 0;
+    font-family: inherit;
+}
+
+a:hover, button:hover {
+    background-color: #10b981b5;
+}
+
+/* ============== */
+/* Layout  */
+/* ============== */
+.wrapper{
+    min-width: 90%;
+    margin: 0 auto;
+    height: 83vh;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+   
+}
+
+.output-section{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 5px solid #2f3e5e;
+    
+
+   
+}
+
+/* ============== */
+/* Media qurries  */
+/* ============== */
+
+@media (min-width:700px){
+    .container{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .heading-feature{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+
+    .subheading{
+        font-size: 1rem;
+    }
+    
+    .wrapper {
+        
+        display: flex;
+        
+       
+        
+   
+    }
+    .output-section{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        border-left: 5px solid #2f3e5e;
+        border-top: none;
+
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+     
+
+    }
+    button{
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+
+    }
+    .container-small{
+        width: 45%;
+    }
+
+    .output{
+        line-height: 2rem;
+        font-size: 1rem;
+        padding: 1em 4em;
+        margin-left: 1.4em;
+
+    }
+}
