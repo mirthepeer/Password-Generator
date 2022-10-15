@@ -6,6 +6,7 @@ body{
     font-family: 'Karla', sans-serif;
     background-color: #1f2937;
     margin: 0;
+    height: 100vh;
     
 }
 
@@ -13,7 +14,7 @@ body{
 /* Topography  */
 /* ============== */
 h1{
-    font-size: 2rem;;
+    font-size: 2.1rem;;
     font-weight: 800;
     line-height: 1.6rem;
     
@@ -60,6 +61,7 @@ button{
     border-style: none;
     margin-bottom: 1em;
     margin-top: 0.85em;
+    font-size: 1rem;
 }
 
 .output{
@@ -78,7 +80,7 @@ button{
 footer{
     text-align: center;
     color: #ffff;
-    padding: 2em 0.1em;
+    padding: 1.7em 0.1em;
     background-color: #273549;
     bottom: 0;
     font-weight: 400;
@@ -181,7 +183,7 @@ a:hover, button:hover {
     .output{
         line-height: 2rem;
         font-size: 1rem;
-        padding: 1em 4em;
+        padding: 0.5em 4em;
         margin-left: 1.4em;
 
     }
