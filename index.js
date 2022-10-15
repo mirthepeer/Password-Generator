@@ -24,7 +24,7 @@ function getRandomIndex(){
 
 
 function generate(){
-    if(passwordOne.length && passwordTwo.length){
+    if(passwordOne.innerHTML.length && passwordTwo.innerHTML.length){
         clear()
     }
     for(i = 0 ; i <16 ; i++){
