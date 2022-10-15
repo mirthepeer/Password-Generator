@@ -99,7 +99,7 @@ a:hover, button:hover {
 .wrapper{
     min-width: 90%;
     margin: 0 auto;
-    height: 83vh;
+    min-height: 80vh;
 }
 
 .container{
