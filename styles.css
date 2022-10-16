@@ -70,12 +70,14 @@ button{
     color: #55f991;
     font-size: 0.9rem;
     line-height: 0.1em;
-    padding: 0.7em 1.5em;
+    padding: 0.7em 1em;
     border-radius: 6px;
     font-style: italic;
     font-weight: 500;
     border: none;
     margin-top: .5em;
+    width: 48%;
+   
     
 }
 
@@ -105,7 +107,7 @@ a:hover, button:hover {
 }
 
 .container{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 1em;
    
@@ -185,8 +187,9 @@ a:hover, button:hover {
     .output{
         line-height: 2rem;
         font-size: 1rem;
-        padding: 0.5em 4em;
+        padding: 0.5em 1em;
         margin-left: 1.4em;
+        width: 80%;
 
     }
 }

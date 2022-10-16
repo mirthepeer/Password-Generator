@@ -27,7 +27,7 @@ function generate(){
     if(passwordOne.value && passwordTwo.value){
         clear()
     }
-    for(i = 0 ; i <16 ; i++){
+    for(i = 0 ; i <15 ; i++){
         passwordOne.value += characters[getRandomIndex()]
         passwordTwo.value += characters[getRandomIndex()]
     
