@@ -12,8 +12,8 @@ const characters =["A","B","C","D","E","F","G","H","I",
             
     
 function clear() {
-    passwordOne.innerHTML = ""
-    passwordTwo.innerHTML = ""
+    passwordOne.value = ""
+    passwordTwo.value = ""
 }
     
 function getRandomIndex(){
@@ -24,12 +24,12 @@ function getRandomIndex(){
 
 
 function generate(){
-    if(passwordOne.innerHTML.length && passwordTwo.innerHTML.length){
+    if(passwordOne.value && passwordTwo.value){
         clear()
     }
     for(i = 0 ; i <16 ; i++){
-        passwordOne.innerHTML += characters[getRandomIndex()]
-        passwordTwo.innerHTML += characters[getRandomIndex()]
+        passwordOne.value += characters[getRandomIndex()]
+        passwordTwo.value += characters[getRandomIndex()]
     
 }
     
